@@ -1,5 +1,6 @@
 # name = Gurdip Singh      SID - 22107007
 
+# Ques1
 # ask user to input three numbers
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
@@ -11,6 +12,8 @@ average = (num1 + num2 + num3) / 3
 # print the result
 print("The average is", average)
 
+
+# Ques 2
 # ask user for gross income and number of dependents
 gross_income = float(input("Enter your gross income: "))
 num_dependents = int(input("Enter the number of dependents: "))
@@ -29,6 +32,8 @@ tax = taxable_income * tax_rate
 print("Your taxable income is: $", taxable_income)
 print("Your tax is: $", tax)
 
+
+# Ques 3
 # ask user for number of seconds
 seconds = int(input("Enter the number of seconds: "))
 
@@ -40,6 +45,8 @@ remaining_seconds = seconds % 60
 print(seconds, "seconds is equal to", minutes, "minute(s) and",
       remaining_seconds, "second(s)")
 
+
+# Ques 4
 # define the three numbers as variables
 num1 = 25
 num2 = '25'
@@ -58,17 +65,13 @@ result_str = str(result)
 print("The result is:", result_str)
 
 
-
+# Ques 5
 import math
 
 for angle in range(0, 346, 15):
-
     radians=math.radians(angle)
-
     sine=round(math.sin(radians),4)
-
     cosine=round(math.cos(radians),4)
-
     print(f"{angle}, {sine}, {cosine}")
 
 
