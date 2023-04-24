@@ -1,3 +1,4 @@
+# Name - Gurdip Singh        SID - 22107007
 # Ques 1
 str = "Python is a case sensitive language"
 print(len(str))         # Length of the input string
